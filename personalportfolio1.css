@@ -1,0 +1,75 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+#navbar a:hover {
+    color: #ddd;
+}
+
+/* Welcome Section */
+#welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+#welcome-section h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px 20px;
+    background-color: #e2e2e2;
+}
+
+.project-tile {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-tile a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.project-tile a:hover {
+    color: #555;
+}
+
+/* Media Query */
+@media (max-width: 600px) {
+    #welcome-section h1 {
+        font-size: 2em;
+    }
+
+    #navbar a {
+        display: block;
+        margin: 10px 0;
+    }
+}
